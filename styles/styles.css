@@ -51,3 +51,13 @@
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(auto-fit, 2fr);
 }
+
+.search-icon, logo {
+    width: auto;
+    height: 30px;
+}
+
+.big-logo {
+    width: auto;
+    height: 40px;
+}
