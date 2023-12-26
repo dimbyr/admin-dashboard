@@ -7,6 +7,7 @@
 
 .sidebar {
     grid-row: 2 / 4;
+    background-color: #d1fae5;
 }
 
 .header {
@@ -37,6 +38,13 @@
     list-style-type: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: end;
+}
+
+ .navlink {
+    background-color: #d1fae5;
+    border: 1px solid #d1fae5;
+    border-radius: 20%;
 }
 
 .content {
@@ -44,12 +52,23 @@
     grid-column: 2;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    background-color: #fafafa;
+    padding: 25px;
 }
 
 .project-boxes {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: repeat(auto-fit, 2fr);
+    gap: 25px;
+}
+
+.dashboard {
+    background-color: #d1fae5;
+}
+
+.project {
+    height: 100px;
 }
 
 .search-icon, logo {
