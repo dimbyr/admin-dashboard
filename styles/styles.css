@@ -81,3 +81,7 @@
     width: auto;
     height: 40px;
 }
+
+li::marker {
+    font-size: 3rem;
+}
