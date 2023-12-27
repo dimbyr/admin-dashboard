@@ -85,3 +85,7 @@
 li::marker {
     font-size: 3rem;
 }
+
+.tweets {
+    list-style-image: url('../img/account.svg')
+}
